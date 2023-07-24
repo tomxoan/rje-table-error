@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './ModalBox.css'; 
-import ModalBoxContent from './ModalBoxContent';
 
 const ModalBox = ({ isOpen, onClose, selectedRow }) => {
   const [data, setData] = useState([]);
